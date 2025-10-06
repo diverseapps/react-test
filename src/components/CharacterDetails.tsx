@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
 import { getCharacterById } from "../api/rickMortyApi";
-import "../CharacterDetail.css"; 
+import "./CharacterDetail.css"; 
 
 const CharacterDetails: React.FC = () => {
   const { id } = useParams({ from: "/character/$id" });

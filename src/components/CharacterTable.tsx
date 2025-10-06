@@ -7,7 +7,7 @@ import {
 import type { ColumnDef } from "@tanstack/react-table";
 import { useNavigate } from "@tanstack/react-router";
 import type { Character } from "../types";
-import "../CharacterTable.css";
+import "./CharacterTable.css";
 
 interface Props {
   characters: Character[];
