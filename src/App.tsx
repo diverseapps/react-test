@@ -1,12 +1,11 @@
 import React from "react";
 import { Outlet } from "@tanstack/react-router";
+import "./App.css"; // ✅ Import plain CSS
 
-const App = () => {
+const App: React.FC = () => {
   return (
-    <div className="p-6">
-      <h1 className="text-3xl font-bold mb-4 text-center">
-        Rick & Morty Characters
-      </h1>
+    <div className="app-container">
+      <h1 className="app-title">Rick & Morty Characters</h1>
       <Outlet />
     </div>
   );
