@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "@tanstack/react-router";
-import "./App.css"; // ✅ Import plain CSS
+import "./App.css";
 
 const App: React.FC = () => {
   return (
